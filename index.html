@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Bootstrap Test</title>
+</head>
+<body>
+
+
+  
+ <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal Welcome</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Welcome Bootstrap Model.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+<!--Begining of Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#"><img src="img/b.png" class="img-fluid" style="height:90px"></a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+<!--Carousel Component-->
+
+    <div class="row">
+
+        <div class="col-lg-12 col-md-12 col-sm-12">
+
+            <div class="">
+
+                <div id="carouselExampleCaptions"  style="height:500px" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner" style="height:500px">
+                      <div class="carousel-item active" style="height:500px" data-bs-interval="10000">
+                        <img src="img/tree.jpg" class="d-block w-100 img-fluid" alt="..." >
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>First slide label</h5>
+                          <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item" style="height:500px" data-bs-interval="10000">
+                        <img src="img/tit.jpg" class="d-block w-100 img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Second slide label</h5>
+                          <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item" style="height:500px" data-bs-interval="10000">
+                        <img src="img/tot.jpg" class="d-block w-100 img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Third slide label</h5>
+                          <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+            </div>
+            
+        </div>
+
+    </div>    
+
+
+<!--Container fluid Code-->
+
+    <div class="container-fluid">
+
+
+        <!--ROW ONE-->        
+
+
+                <div class="row">
+
+                    <div class="col-lg-8 col-md-8 col-sm-12">
+
+                        <div class="content bg-light p-5 m-2">
+
+                            <div class="row">
+
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+
+                                    <div class="cont bg-light p-5 m-2 border border-white">
+
+                                        <img src="img/insta6.jpg" alt="" class="img-fluid img-thumbnail mx-auto d-flex">
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+
+                                    <div class="con bg-light p-5 m-2 border border-white">
+
+                                        <p class="text-dark">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit tempore dolore optio iure voluptas vero! Corporis reiciendis accusamus rem id assumenda vel similique sequi architecto amet repudiandae iusto, omnis temporibus!
+                                        </p>
+                                         
+                                        <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Launch 
+                                          </button>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+
+                                    <div class="con bg-light p-5 m-2 border border-white">
+
+                                        <p class="text-dark">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit tempore dolore optio iure voluptas vero! Corporis reiciendis accusamus rem id assumenda vel similique sequi architecto amet repudiandae iusto, omnis temporibus!
+                                        </p>
+
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+
+                        <div class="reg bg-light p-5 m-2 text-wrap">
+                            
+                                <h3 class="text text-center">Register</h3>
+
+                            <form action="#" method="post" class="was-validated">
+
+                                <div class="mb-3">
+
+                                    <label for="text" class="form-label">Name: </label>
+
+                                    <input type="text" id="text" class="form-control" name="text" placeholder="your name" required />
+
+                                </div>  
+
+                                <!--Input Group Control-->
+                                        <div class="mb-3">
+
+                                            <div class="input-group">
+
+                                                    <span class="input-group-text">
+                                                        <i class="bi bi-person-circle"></i>
+                                                    </span>
+                                                    <input type="text" class="form-control">
+                                                    <label for="" class="form-label" ></label>
+                                            </div>  
+
+                                        </div>
+                                
+                                        <div class="mb-3">
+
+                                            <div class="input-group">
+
+                                                <span class="input-group-text">
+                                                    @
+                                                </span>
+                                                <input type="text" class="form-control">
+                                                <span class="input-group-text">
+                                                    @
+                                                </span>
+                                            </div>  
+
+                                        </div>
+
+
+                                        <div class="mb-3">
+
+
+                                    <!--Floating Control-->        
+                                            <div class="form-floating">
+
+                                                
+
+                                                <input type="email" class="form-control" id="">
+
+                                                <label for="" class="form-label">email</label>
+
+                                                    <div class="valid-feedback">
+                                                        looks good!
+                                                    </div>
+
+                                                    <div class="invalid-feedback">
+                                                        Please provide a valid email.
+                                                    </div>
+                                                
+                                            </div>  
+
+                                        </div>
+
+
+
+                                <div class="mb-3">
+
+                                    <label for="email" class="form-label">Email: </label>
+
+                                    <input type="email" class="form-control" placeholder="your email is required" required id="email" name="email" />
+
+                                </div>
+
+                                <div class="mb-3">
+
+                                    <label for="pass" class="form-label">Password: </label>
+
+                                    <input type="password" class="form-control" placeholder="password" required id="pass" name="password" />
+
+                                    <div id="PasswordHelpBlock" class="form-text">
+
+                                        Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                                    </div>
+
+
+                                </div>
+
+
+                            <!--Select Control-->    
+                                <div class="mb-3">
+
+                                    <label for="state" class="form-label" >State of Origin:</label>
+
+                                    <select class="form-select" name="select" id="state"  aria-label="multiple select example">
+
+                                        <option value="1" selected>Toronto</option>
+                                        <option value="2" >Ottawa</option>
+                                        <option value="3" >Ontaria</option>
+                                        <option value="4" >vancoure BC</option>
+
+                                    </select>
+
+                                </div>
+
+
+                            <!--Checkbox Control-->    
+                                <div class="mb-1">
+                                    <label for="" class="form-label">Qualification:</label>
+                                </div>
+
+                                <div class="form-check">
+
+                                        <input type="checkbox" class="form-check-input" id="flexcheck" name="qualification">
+                                        <label for="flexcheck" class="form-check-l">B.sc</label>
+
+                                </div>
+
+
+                                <div class="form-check">
+
+                                    
+                                    <input type="checkbox" class="form-check-input" id="flexchecktwo" name="qualification">
+                                    <label for="flexchecktwo" class="form-check-label">M.sc</label>
+
+                                </div>
+
+                            <!--Switch control-->
+
+                                <div class="form-check form-switch">                          
+                                    <input type="checkbox" role="switch" class="form-check-input" id="flexchecktwo" name="qualification">
+                                    <label for="flexchecktwo" class="form-check-label">Switch off/on</label>
+
+                                </div>
+
+
+                            <!--Radio Control-->    
+                                <div class="mb-1 mt-3">
+                                    <label for="" class="form-label">Gender:</label>
+                                </div>
+
+                                
+                                    <div class="form-check form-check-inline">
+
+                                        <input type="radio" class="form-check-input" id="flexradio" name="gender">
+                                        <label for="flexradio" class="form-check-label">Male</label>
+
+                                    </div>
+
+
+                                    <div class="form-check form-check-inline">
+            
+                                    <input type="radio" class="form-check-input" id="flexradiotwo" name="gender">
+                                    <label for="flexradiotwo" class="form-check-label">Female</label>
+
+                                    </div>
+
+                                <!--Comment Textarea-->
+                                
+                                <div class="mb-3">
+
+                                    <label for="comment" class="form-label">Comment: <label>
+                                </div>        
+
+                                <div class="mb-3">
+                                    
+                                    <textarea name="comment" id="comment" cols="30" rows="10" class="form-control"></textarea>
+
+                                </div>    
+
+                                <div class="mb-3">
+
+
+                                <!--Button ->Color,Size,Outline-->    
+                                    <button class="btn btn-outline-success btn-md" type="buttton" value="button">Submit</button>
+
+                                </div> 
+                                
+                                <div class="mb-3">
+
+                                        <a href="" role="button" class="btn btn-outline-danger disabled">Go back</a>
+
+                                </div>
+
+                            </form>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+        <!--ROW TWO-->
+                <div class="row">
+
+                    <div class="col-lg-8 col-md-8 col-sm-12">
+
+                        <div class="p-5 border border-white bg-light">
+
+                            <form action="" class="was-validated">
+
+                                <div class="input-group mb-3">
+
+                                    <input type="email" class="form-control">
+                                    <span class="input-group-text">@</span>
+                                    <input type="email" class="form-control">
+
+                                </div>
+
+                                <div class="mb-3">
+
+                                    <label for="" class="form-label">Password: </label>
+                                    <input type="password" class="form-control">
+
+                                </div>
+
+                                <div class="mb-3">
+
+                                    <button class="btn btn-outline-success" type="button">Login</button>
+
+                                </div>
+
+                                <div class="alert alert-success alert-dismissible fade show" role="alert" >
+
+                                    <strong>Login Successful!</strong> Welcome to boostrap alert google Dsi Hub.
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert"  aria-label="close"></button>
+
+                                </div>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+
+                        <div class="p-5 border border-white bg-light">
+
+                            <div class="accordion" id="accordionExample">
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Why is creating content important?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                        <strong>This is the first item's accordion body.</strong>
+                                        Creating content is very important for users and potential customers. It is important to establish closer ties with your users and customers, to better explain your brand, and to add value with your content. With the content you create, you can increase your awareness and attract new people.
+
+                                    </div>
+                                </div>
+
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            What does a content marketing specialist do?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                        <strong>This is the second item's accordion body.</strong> Content marketing specialist is the manager responsible for creating standards and presenting them in accordance with marketing strategies so that all written and visual content prepared within the company is permanent and interesting in all periods. They are mostly people<code>who are affiliated with </code> or work closely with marketing teams and have developed verbal and written communication skills.
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            What are the main goals of content marketing?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                        <strong>This is the third item's accordion body.</strong> 
+                                        If Content Marketing is presented with good planning, effective results are obtained. The content on your website must be prepared in a way that appeals to the needs of the audience you are targeting. At the same time, this process should be in a periodic order. In this way, you will be able to attract the attention of your readers and make them become your potential customers and even increase them to a position that prefers your brand.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                    </div>
+                </div>    
+        <!--ROW THREE-->        
+
+                <div class="row">
+
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+
+                            <div class="p-5 m-2 border border-white bg-light">
+        
+                                <P class="text text-center text-dark">Designed by Dsi Hub.</P>
+
+                            </div>
+
+                    </div>
+
+                </div>
+
+
+        
+
+    </div>
+
+    
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
